@@ -38,6 +38,7 @@ cd The-BasicSalesApp
 ```
 
 5. Build the standalone executable:
+   
 `pyinstaller --onefile main.py`
 
 > If you wanna add a logo on your app
