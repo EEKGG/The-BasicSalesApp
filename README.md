@@ -37,8 +37,7 @@ git clone https://github.com/EEKGG/The-BasicSalesApp/releases/download/v1.5-for-
 cd The-BasicSalesApp
 ```
 
-5. Build the standalone executable:
-   
+5. Build the standalone executable: 
 `pyinstaller --onefile main.py`
 
 > If you wanna add a logo on your app
@@ -56,21 +55,6 @@ You may need to make it executable first:
 `chmod +x main`
 
 ✅ This will generate a self-contained binary that can run on most 64-bit Linux distributions without needing Python installed.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## Contributors
 
