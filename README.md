@@ -5,7 +5,7 @@ This program manages the stock status of items in a store's inventory, maintains
 
 - Developed in Python 3
 - Single-file executable using PyInstaller
-- Runs on 64-bit Linux systems
+- Runs on 64-bit Linux and Windows systems
 - No additional setup required
 
 ## 🚀 Installation (Linux)
