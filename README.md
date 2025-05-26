@@ -13,8 +13,11 @@ This program manages the stock status of items in a store's inventory, maintains
 Download and run the app with the following commands:
 
 ```
-wget https://github.com/EEKGG/The-BasicSalesApp/releases/download/v1.5-for-Linux-distros/SalesApp v1.5.tar.gz
-unzip SalesApp v1.5.tar.gz
+cd Downloads
+wget https://github.com/EEKGG/The-BasicSalesApp/releases/download/v1.5-for-Linux-distros/SalesApp.v1.5.tar.gz
+tar -xzf SalesApp.v1.5.tar.gz
+cd "SalesApp v1.5/BasicSalesApp v1.5(Portable)"
+sudo ln -s "$(pwd)/BasicSalesApp" /usr/local/bin/BasicSalesApp
 chmod +x BasicSalesApp
 ./BasicSalesApp
 ```
